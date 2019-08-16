@@ -10,6 +10,8 @@ conteudo = ""
 achou = int = 0
 adiMais = "S"
 proMais = "S"
+
+# Banco de dados com os nomes dos países e suas regiões.
 database = IP2Location.IP2Location(os.path.join("data", "IP2LOCATION-LITE-DB11.BIN"))
 
 
