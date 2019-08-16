@@ -44,7 +44,6 @@ while check == False:
                 print("Foram encontrados", achou, " Remententes.\n")
             achou = 0
             proMais = input("Você precisa procurar mais alguma informacao do Header? \n (S/N) \n").upper()
-            adiMais = input("Voce precisa adicionar mais algum registro? \n (S/N) \n").upper()
 
 
     elif Escolha == 2:
