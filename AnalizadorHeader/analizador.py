@@ -43,7 +43,7 @@ while check == False:
             elif achou == 1:
                 print("Foi encontrado", achou, " Remetente.\n")
             else:
-                print("Foram encontrados", achou, " Remententes.\n")
+                print("Foram encontrados", achou, " Estruturas dos Remententes.\n")
             achou = 0
             proMais = input("Você precisa procurar mais alguma informacao do Header? \n (S/N) \n").upper()
 
@@ -73,7 +73,7 @@ while check == False:
             if achou <= 0:
                 print("Não foi possivel procurar um IP do Remetente, por favor tente denovo.\n")
             elif achou == 1:
-                print("Foi encontrado", achou, " o IP.\n")
+                print("Foi encontrado", achou, " IP.\n")
             else:
                 print("Foram encontrados", achou, " IP's.\n")
             achou = 0
@@ -160,11 +160,11 @@ while check == False:
 
             elif achou == 1:
 
-                print("Foi encontrado", achou, " Message-ID.\n")
+                print("Foi encontrado", achou, " Endereço 'From'.\n")
 
             else:
 
-                print("Foram encontrados", achou, " Messages-ID.\n")
+                print("Foram encontrados", achou, " Endereços 'From'.\n")
 
             achou = 0
 
@@ -175,7 +175,12 @@ while check == False:
         Escolha = int(input(
             "Opção Inválida, Escolha corretamente:\n 1- Verifição de endereço do Remetente \n 2- Verificar IP de origem \n 3- Verificar o Message-ID \n 4-Verificacao de quem foi enviado \n "))
     algo = input("Precisa fazer mais alguma coisa? \n (S/N) \n").upper()
+    while check == False:
+    #Escolhas para o Usuario para a procura dos pontos principais do Header
 
+    Escolha = float(input(
+        "Selecione alguma das opções abaixo: \n 1- Verifição de endereço do Remetente \n 2- Verificar IP de origem \n 3- Verificar o Message-ID \n 4-Verificacao de quem foi enviado \n "))
+    
     if algo =="S":
         check = False
         clear()
