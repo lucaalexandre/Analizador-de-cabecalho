@@ -174,7 +174,7 @@ while check == False:
         clear()
         Escolha = int(input(
             "Opção Inválida, Escolha corretamente:\n 1- Verifição de endereço do Remetente \n 2- Verificar IP de origem \n 3- Verificar o Message-ID \n 4-Verificacao de quem foi enviado \n "))
-            algo = input("Precisa fazer mais alguma coisa? \n (S/N) \n").upper()
+    algo = input("Precisa fazer mais alguma coisa? \n (S/N) \n").upper()
    
     if algo =="S":
         check = False
