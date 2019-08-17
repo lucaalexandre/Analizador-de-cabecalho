@@ -175,12 +175,7 @@ while check == False:
         Escolha = int(input(
             "Opção Inválida, Escolha corretamente:\n 1- Verifição de endereço do Remetente \n 2- Verificar IP de origem \n 3- Verificar o Message-ID \n 4-Verificacao de quem foi enviado \n "))
     algo = input("Precisa fazer mais alguma coisa? \n (S/N) \n").upper()
-    while check == False:
-    #Escolhas para o Usuario para a procura dos pontos principais do Header
-
-    Escolha = float(input(
-        "Selecione alguma das opções abaixo: \n 1- Verifição de endereço do Remetente \n 2- Verificar IP de origem \n 3- Verificar o Message-ID \n 4-Verificacao de quem foi enviado \n "))
-    
+   
     if algo =="S":
         check = False
         clear()
